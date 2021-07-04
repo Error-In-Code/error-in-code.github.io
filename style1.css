@@ -19,7 +19,7 @@ h3 {
     text-align : center;
 }
 
-ul {
+ul.noStyle {
     text-align : center;
     list-style-type : none;
 }

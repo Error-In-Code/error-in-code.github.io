@@ -1,15 +1,17 @@
 ﻿body {
-    background-color : darkslategrey
+    background-color : #1d1d1d;
 }
 
 p {
-    color : lightgrey
+    color : lightgrey;
 }
 
 h1{
-    color : lightgrey
+    color : lightgrey;
+    align-content: center;
 }
 
 h5 {
-    color : lightgray
+    color : lightgray;
+    align-content : center;
 }

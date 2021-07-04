@@ -4,14 +4,14 @@
 
 p {
     color : lightgrey;
+    text-align : justify;
 }
 
 h1{
     color : lightgrey;
-    align-content: center;
+    text-align : center;
 }
 
 h5 {
     color : lightgray;
-    align-content : center;
 }

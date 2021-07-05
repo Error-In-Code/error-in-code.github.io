@@ -1,12 +1,13 @@
 ﻿body {
     background-color : #1d1d1d;
+    color : lightgray;
 }
 
 p.block {
     color : lightgrey;
     margin-left : auto;
     margin-right : auto;
-    width : 20em;
+    width : 30em;
 }
 
 h1{
@@ -16,14 +17,18 @@ h1{
 
 h3 {
     color : lightgray;
-    text-align : center;
+    text-align : left;
+    margin-left : auto;
+    margin-right : auto;
+    width : 30em;
 }
 
 ul.noStyle {
-    text-align : center;
+    margin-left : auto;
+    margin-right : auto;
+    width : 33em;
     list-style-type : none;
 }
-
 
 a{
     color : #0abaff;

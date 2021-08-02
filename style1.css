@@ -1,6 +1,7 @@
 ﻿body {
     background-color : #1d1d1d;
     color : lightgray;
+    font-family: sans-serif;
 }
 
 p.block {
@@ -32,4 +33,33 @@ ul.noStyle {
 
 a{
     color : #0abaff;
+}
+
+nav{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+a.navLink:link{
+    color: lightgray;
+    text-decoration: none;
+}
+
+a.navLink:visited{
+    color: lightgray;
+    text-decoration: none;
+}
+
+a.navLink:hover{
+    color:white;
 }

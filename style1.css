@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
 body {
     background-color : #1d1d1d;
     color : lightgray;
-    font-family: sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     margin: 0;
 }
 
@@ -66,4 +68,43 @@ a.navLink:visited{
 
 a.navLink:hover{
     color:white;
+}
+
+ul.imgList{
+  margin: 0 auto;
+  text-align: center;
+}
+
+li.imgList{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: block;
+  vertical-align: top;
+}
+
+
+img.imgLink {
+  width: 100%;
+  height: auto;
+  animation-name: unhoverImage;
+  animation-duration: 0.2s;
+  filter: brightness(0.7);
+}
+
+img.imgLink:hover{
+  animation-name: hoverImage;
+  animation-duration: 0.2s;
+  filter: brightness(1);
+}
+
+@keyframes hoverImage {
+  from {filter: brightness(0.7);}
+  to {filter: brightness(1);}
+}
+
+@keyframes unhoverImage {
+  from {filter: brightness(1);}
+  to {filter: brightness(0.7);}
 }
